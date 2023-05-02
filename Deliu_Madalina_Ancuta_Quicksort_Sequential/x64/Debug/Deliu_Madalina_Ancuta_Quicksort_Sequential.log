@@ -1,3 +1,5 @@
-﻿  QuicksortSequential.cpp
-D:\An3_sem2\Apd\Proiect_curs\Deliu_Madalina_Ancuta_Quicksort_Sequential\Deliu_Madalina_Ancuta_Quicksort_Sequential\QuicksortSequential.cpp(4,23): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+﻿cl : command line  warning D9025: overriding '/openmp' with '/openmp:llvm'
+  mainOpenMPSort.cpp
+  mainParallelSortcpp.cpp
+  Generating Code...
   Deliu_Madalina_Ancuta_Quicksort_Sequential.vcxproj -> D:\An3_sem2\Apd\Proiect_curs\Deliu_Madalina_Ancuta_Quicksort_Sequential\x64\Debug\Deliu_Madalina_Ancuta_Quicksort_Sequential.exe

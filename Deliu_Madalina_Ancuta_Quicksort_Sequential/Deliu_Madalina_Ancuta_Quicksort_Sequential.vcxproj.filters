@@ -21,50 +21,89 @@
     <ClInclude Include="QuicksortSequential.h">
       <Filter>Source Files</Filter>
     </ClInclude>
+    <ClInclude Include="Timer.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="RandomGenerator.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="WriteToFile.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="QuicksortParallel.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="QuicksortSequential.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="main.cpp">
+    <ClCompile Include="mainQuickSort.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="RandomGenerator.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="WriteToFile.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="mainQSort.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="mainSort.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="mainParallelSortcpp.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="mainOpenMPSort.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="QuickSortParallel.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <Text Include="input10.txt">
+    <Text Include="input_files\input.txt">
       <Filter>Source Files</Filter>
     </Text>
-    <Text Include="input50.txt">
+    <Text Include="input_files\input10.txt">
       <Filter>Source Files</Filter>
     </Text>
-    <Text Include="input100.txt">
+    <Text Include="input_files\input50.txt">
       <Filter>Source Files</Filter>
     </Text>
-    <Text Include="input1000.txt">
+    <Text Include="input_files\input100.txt">
       <Filter>Source Files</Filter>
     </Text>
-    <Text Include="input10000.txt">
+    <Text Include="input_files\input1000.txt">
       <Filter>Source Files</Filter>
     </Text>
-    <Text Include="input1000000.txt">
+    <Text Include="input_files\input10000.txt">
       <Filter>Source Files</Filter>
     </Text>
-    <Text Include="output10.txt">
+    <Text Include="input_files\input1000000.txt">
       <Filter>Source Files</Filter>
     </Text>
-    <Text Include="output50.txt">
+    <Text Include="output_files\output.txt">
       <Filter>Source Files</Filter>
     </Text>
-    <Text Include="output100.txt">
+    <Text Include="output_files\output10.txt">
       <Filter>Source Files</Filter>
     </Text>
-    <Text Include="output1000.txt">
+    <Text Include="output_files\output50.txt">
       <Filter>Source Files</Filter>
     </Text>
-    <Text Include="output10000.txt">
+    <Text Include="output_files\output100.txt">
       <Filter>Source Files</Filter>
     </Text>
-    <Text Include="output1000000.txt">
+    <Text Include="output_files\output1000.txt">
+      <Filter>Source Files</Filter>
+    </Text>
+    <Text Include="output_files\output10000.txt">
+      <Filter>Source Files</Filter>
+    </Text>
+    <Text Include="output_files\output1000000.txt">
       <Filter>Source Files</Filter>
     </Text>
   </ItemGroup>

@@ -104,6 +104,9 @@
       <SDLCheck>true</SDLCheck>
       <PreprocessorDefinitions>_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <AdditionalOptions>-openmp:llvm %(AdditionalOptions)</AdditionalOptions>
+      <OpenMPSupport>true</OpenMPSupport>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
@@ -128,25 +131,38 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClInclude Include="Algorithm.h" />
+    <ClInclude Include="QuicksortParallel.h" />
     <ClInclude Include="QuicksortSequential.h" />
+    <ClInclude Include="RandomGenerator.h" />
+    <ClInclude Include="Timer.h" />
+    <ClInclude Include="WriteToFile.h" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="main.cpp" />
+    <ClCompile Include="mainOpenMPSort.cpp" />
+    <ClCompile Include="mainParallelSortcpp.cpp" />
+    <ClCompile Include="mainQuickSort.cpp" />
+    <ClCompile Include="mainQSort.cpp" />
+    <ClCompile Include="mainSort.cpp" />
+    <ClCompile Include="QuickSortParallel.cpp" />
     <ClCompile Include="QuicksortSequential.cpp" />
+    <ClCompile Include="RandomGenerator.cpp" />
+    <ClCompile Include="WriteToFile.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <Text Include="input10.txt" />
-    <Text Include="input100.txt" />
-    <Text Include="input1000.txt" />
-    <Text Include="input10000.txt" />
-    <Text Include="input1000000.txt" />
-    <Text Include="input50.txt" />
-    <Text Include="output10.txt" />
-    <Text Include="output100.txt" />
-    <Text Include="output1000.txt" />
-    <Text Include="output10000.txt" />
-    <Text Include="output1000000.txt" />
-    <Text Include="output50.txt" />
+    <Text Include="input_files\input.txt" />
+    <Text Include="input_files\input10.txt" />
+    <Text Include="input_files\input100.txt" />
+    <Text Include="input_files\input1000.txt" />
+    <Text Include="input_files\input10000.txt" />
+    <Text Include="input_files\input1000000.txt" />
+    <Text Include="input_files\input50.txt" />
+    <Text Include="output_files\output.txt" />
+    <Text Include="output_files\output10.txt" />
+    <Text Include="output_files\output100.txt" />
+    <Text Include="output_files\output1000.txt" />
+    <Text Include="output_files\output10000.txt" />
+    <Text Include="output_files\output1000000.txt" />
+    <Text Include="output_files\output50.txt" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
